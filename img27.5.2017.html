@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+		<style type="text/css">
+			table {
+				width: 200px;
+				border: 5px solid #999;
+				
+			}
+			td {
+				font-size: 150%;
+				text-align: center;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th bgcolor="red">Title 1</th>
+				<th bgcolor="blue">Title 2</th>
+				<th bgcolor="green">Title 3</th>
+				<th bgcolor="orange">Title 4</th>
+				<th bgcolor="yellow">Title 5</th>
+			</tr>
+			<tr>
+				<td bgcolor="red">1</td>
+				<td bgcolor="blue">2</td>
+				<td bgcolor="green">3</td>
+				<td bgcolor="orange">4</td>
+				<td rowspan="2" bgcolor="yellow">5</td>
+			</tr>
+			<tr>
+				<td colspan="2" bgcolor="red">11</td>
+				
+				<td colspan="2" bgcolor="green">33</td>
+				
+				
+			</tr>
+			<tr>
+				<td colspan="5" bgcolor="red">111</td>
+
+			</tr>
+			<tr>
+				<td bgcolor="red">1111</td>
+				<td colspan="3" bgcolor="blue">2222</td>
+				
+				<td bgcolor="yellow">5555</td>
+			</tr>
+			<tr>
+				<td colspan="2" bgcolor="red">11111</td>
+				
+				<td colspan="2" rowspan="2" bgcolor="green">33333</td>
+				
+				<td bgcolor="yellow">55555</td>
+			</tr>
+			<tr>
+				<td bgcolor="red">111111</td>
+				<td bgcolor="blue">222222</td>
+				<td bgcolor="yellow">555555</td>
+				
+			</tr>
+		</table>
+	</body>
+</html>
